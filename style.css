@@ -1,0 +1,455 @@
+body {
+    background-color: rgba(0, 0, 0, 0.571);
+    margin: 0; /* Remove default body margin */
+}
+header {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 100%;
+    display: flex; /* Use flexbox to arrange items horizontally */
+    align-items: center;
+}
+.logo {
+    margin-right: 10px; /* Add some space between the logo and h1 */
+}
+header div img {
+    height: 80px;
+    width: 80px;
+    display: block;
+}
+h1 {
+    margin: 0;
+    font-style: oblique;
+    font-size: 25px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 760px; /* Align links to the right */
+}
+nav a {
+    margin-left: 20px; /* Add spacing between the nav links */
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+main {
+    margin-top: 1px;
+    background-color: rgb(255, 255, 255);
+    height: 4599px;
+}
+main section {
+    margin: 0;
+}
+.top-section {
+    display: flex;
+    height: 20%;
+    padding: 20px;
+    margin: 0;
+}
+main section div img{
+    padding-right: 80px;
+    padding-top: 85px;
+    padding-left: 100px;
+    height: 700px;
+    width: 500px;
+}
+.text {
+    padding-left: 100px;
+}
+.text a {
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 16px;
+}
+.h {
+    font-size: 32px;
+}
+.text2h {
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: 17px;
+    font-style: initial;
+}   
+.x {
+    font-size: 15px;
+    
+    padding-left: 100px;
+    
+    font-style: initial;
+}
+
+
+
+
+
+
+.about-section {
+    padding: 50px 0;
+    background-color: #ffffff61;
+}
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-container h2{
+    font-size: 35px;
+}
+.about-details {
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.about-details p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.about-description {
+    margin-bottom: 50px;
+    font-size: 21px;
+}
+.about-hobbies{
+    margin-top: 60px;
+}
+.about-hobbies h3 {
+    margin-bottom: 10px;
+}
+.about-hobbies ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.about-hobbies li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bottom-section {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    padding: 10px 100px;
+    position: relative; /* Set position relative to contain absolutely positioned elements */
+}
+
+.bottom-section h1 {
+    position: absolute; /* Set position to absolute */
+    top: 0px; /* Align to the top */
+    left: 20px; /* Align to the left */
+    margin: 40px; /* Remove default margin */
+    font-size: 30px;
+}
+section h1{
+    font-style:normal;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+
+.schools {
+    display: flex;
+    padding-top: 40px;
+    flex-wrap: wrap; /* Allow schools to wrap to the next line */
+    justify-content: space-around; /* Distribute items evenly with space around them */
+    margin-bottom: 20px; /* Add some space between sets of schools */
+}
+
+.school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px; /* Add some space between individual schools */
+}
+.school img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+
+.anime-section {
+    padding: 10px 0; /* Adjust padding */
+    overflow-x: auto; /* Disable horizontal scrolling */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the content horizontally */
+    margin: 0; /* Reset margin */
+    max-width: calc(100% - 20px); /* Ensure section doesn't exceed screen width minus 20px */
+    padding-left: 20px; /* Add padding to the left side */
+}
+
+.anime-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Distribute items evenly */
+    padding: 0; /* Reset padding */
+}
+
+.anime {
+    width: calc(16.66% - 20px); /* Adjust width for 6 anime entries with padding */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    text-align: center;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange image and text vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.anime img {
+    padding-right: 100px;
+    width: 100%;
+    height: 320px;
+    margin-bottom: 10px; /* Adjust margin at the bottom */
+}
+
+
+.anime p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.watch-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #8b4d72;
+    background: linear-gradient(0deg, rgb(32, 12, 73) 0%, rgb(215, 213, 230) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #51415c;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 10px; /* Adjust margin from anime text */
+}
+
+.watch-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #a71dbd98;
+}
+
+.watch-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #26b8ab98;
+}
+.title-a{
+    padding-top: 170px;
+    padding-left: 80px;
+}
+
+
+
+
+.gallery-container {
+    display: flex;
+  }
+  
+  .photo-gallery {
+    flex: 1;
+    padding-left: 165px;
+  }
+  .photo-g {
+    flex: 1;
+    padding-right:370px;
+    padding-top: 277px;
+  }
+  .photo-c {
+    flex: 1;
+    padding-right:40px;
+    padding-top: 0px;
+    
+  }
+  
+  .photo-gallery .gallery {
+    --g: 6px; /* the gap */
+    display: grid;
+    width: 450px; /* the size */
+    aspect-ratio: 1;
+    grid: auto-flow 1fr / repeat(3, 1fr);
+    gap: var(--g);
+  }
+  .photo-g .gallery {
+    --g: 6px; /* the gap */
+    display: grid;
+    width: 450px; /* the size */
+    aspect-ratio: 1;
+    grid: auto-flow 1fr / repeat(3, 1fr);
+    gap: var(--g);
+  }
+  .photo-c .gallery {
+    --g: 6px; /* the gap */
+    display: grid;
+    width: 450px; /* the size */
+    aspect-ratio: 1;
+    grid: auto-flow 1fr / repeat(3, 1fr);
+    gap: var(--g);
+  }
+  
+  .photo-gallery .gallery img,
+  .photo-g .gallery img, .photo-c .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale();
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .photo-gallery .gallery img:hover,
+  .photo-g .gallery img:hover,.photo-c .gallery img:hover {
+    filter: grayscale(0);
+  }
+  
+  .photo-gallery .gallery img:nth-child(2),
+  .photo-g .gallery img:nth-child(2),.photo-c .gallery img:nth-child(2) {
+    grid-area: 1/2/span 2/span 2;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, calc(50% + var(--g) / 4) 100%, 0 calc(50% - var(--g) / 4));
+  }
+  
+  .photo-gallery .gallery img:nth-child(3),
+  .photo-g .gallery img:nth-child(3), .photo-c .gallery img:nth-child(3) {
+    grid-area: 2/1/span 2/span 2;
+    clip-path: polygon(0 0, calc(35% - var(--g) / 4) 0, 100% calc(70% + var(--g) / 4), 100% 100%, 0 100%);
+  }
+  
+
+  .photo- {
+    display:grid;
+    place-content:initial;
+    padding-left: 170px;
+    padding-bottom: 100px;
+    
+  }
+  
+  .photo- .gallery {
+    --g: 6px; /* the gap */
+    display: grid;
+    width: 450px; /* the size */
+    aspect-ratio: 1;
+    grid: auto-flow 1fr / repeat(3, 1fr);
+    gap: var(--g);
+  }
+  
+  .photo- .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale();
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .photo- .gallery img:hover {
+    filter: grayscale(0);
+  }
+  
+  .photo- .gallery img:nth-child(2) {
+    grid-area: 1/2/span 2/span 2;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, calc(50% + var(--g) / 4) 100%, 0 calc(50% - var(--g) / 4));
+  }
+  
+  .photo- .gallery img:nth-child(3) {
+    grid-area: 2/1/span 2/span 2;
+    clip-path: polygon(0 0, calc(35% - var(--g) / 4) 0, 100% calc(70% + var(--g) / 4), 100% 100%, 0 100%);
+  }
+  .haa{
+    padding-top: 40px;
+    padding-left: 60px;
+  }
+  .haa h1{
+    font-size: 30px;
+  }
+  
+  
+  
+   
+
+
+
+
+
+
+  .site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    height: 200px; /* Set the height */
+    width: 100%; /* Set the width to match the main section */
+}
+
+
+
+
+
+.footer-content {
+    display: flex;
+    
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding-left: 40px;
+}
+
+.footer-section ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #666;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
